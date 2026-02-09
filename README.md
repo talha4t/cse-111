@@ -1,4 +1,4 @@
-# CSE-111: C Programming Course
+# CSE-111: Object Oriented Programming Language (C Programming Course)
 
 A comprehensive collection of C programming examples and exercises covering fundamental concepts to intermediate programming techniques.
 
