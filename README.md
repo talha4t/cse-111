@@ -4,7 +4,7 @@ A comprehensive collection of C programming examples and exercises covering fund
 
 ## Overview
 
-This repository contains course materials for CSE-111, organized into three chapters with both example programs and practice exercises. Each chapter progressively builds on the previous concepts to develop strong C programming fundamentals.
+This repository contains course materials for CSE-111, organized into chapters with example programs, practice exercises, cumulative problems, and mastery challenges. Each chapter progressively builds on the previous concepts to develop strong C programming fundamentals.
 
 ## Structure
 
@@ -12,24 +12,8 @@ This repository contains course materials for CSE-111, organized into three chap
 
 **Folder:** `chapter-01/`
 
-#### Examples (17 programs)
-Introduction to basic C syntax, input/output operations, and fundamental programming concepts:
-- Basic printf statements and output formatting
-- User input with scanf
-- Variables and data types
-- Basic arithmetic operations
-- Control flow fundamentals
-
-**Files:** 1-1-1.c through 1-10-3.c
-
-#### Exercises (9 programs)
-Hands-on practice problems reinforcing Chapter 1 concepts:
-- Simple output programs
-- Basic input validation
-- Arithmetic calculations
-- Introduction to conditional statements
-
-**Files:** 1-3-2.c, 1-4-2.c, 1-5-1.c, 1-5-2.c, 1-7-2.c, 1-8-2.c, 1-9-1.c, 1-10-1.c, 1-10-3.c
+- **Examples** (16 programs): Basic syntax, printf/scanf, variables, arithmetic, control flow.
+- **Exercises** (9 programs): Simple output, input validation, arithmetic, intro conditionals.
 
 ---
 
@@ -37,24 +21,8 @@ Hands-on practice problems reinforcing Chapter 1 concepts:
 
 **Folder:** `chapter-02/`
 
-#### Examples (15 programs)
-Deep dive into decision-making structures and conditional flow:
-- if/else statements and logic
-- Comparison operators
-- Boolean logic and conditions
-- Nested conditionals
-- Input validation patterns
-
-**Files:** 2-1-1.c, 2-1-2.c, 2-2-1.c, 2-2-2.c, 2-3-1.c, 2-3-2.c, 2-4-1.c, 2-4-2.c, 2-5-1.c, 2-5-2.c, 2-6-1.c, 2-6-2.c, 2-6-3.c, 2-7-2.c, 2-7-3.c
-
-#### Exercises (11 programs)
-Practice implementing conditional logic and decision structures:
-- Complex condition evaluation
-- Practical real-world scenarios
-- Input validation and error handling
-- Multiple solution approaches (see 2-7-5.c and 2-7-5-different-way.c)
-
-**Files:** 2-1-2.c, 2-2-1.c, 2-3-1.c, 2-4-1.c, 2-4-2.c, 2-4-3.c, 2-5-2.c, 2-6-1.c, 2-6-2.c, 2-7-1.c, 2-7-2.c, 2-7-5.c, 2-7-5-different-way.c
+- **Example** (15 programs): if/else, comparison operators, boolean logic, nested conditionals.
+- **Exercise** (13 programs): Condition evaluation, real-world scenarios, validation.
 
 ---
 
@@ -62,24 +30,96 @@ Practice implementing conditional logic and decision structures:
 
 **Folder:** `chapter-03/`
 
-#### Examples (18+ programs)
-Building on previous chapters with more advanced programming patterns:
-- Complex logic and nested structures
-- Character handling and ASCII codes
-- Advanced input/output operations
-- Program flow and optimization techniques
-- Edge case handling
+- **Examples** (21 programs): Complex logic, character handling, ASCII, flow optimization.
+- **Exercise** (15 programs): Integrated problems, algorithmic challenges.
 
-**Files:** 3-1-1.c, 3-1-2.c, 3-3-1.c through 3-10-1.c, plus additional reference files (92.0.c, 95.0.c)
+---
 
-#### Exercises (15 programs)
-Comprehensive practice problems combining all learned concepts:
-- Integrated problem-solving
-- Real-world algorithmic challenges
-- Performance considerations
-- Code organization and readability
+### Chapter 4: Data Types, Functions, and Type Conversion
 
-**Files:** 3-1-2.c, 3-2-2.c, 3-3-1.c through 3-9-2.c
+**Folder:** `chapter-04/`
+
+- **Examples** (16 programs): unsigned/long/short types, local vs global scope, function parameters, type promotion/demotion, casting.
+- **Exercises** (6 programs): Distance calculations, sound speed function, long int input, loops, series functions.
+
+---
+
+### Chapter 5: Arrays and Strings
+
+**Folder:** `chapter-05/`
+
+- **Examples** (12 programs): Arrays, bubble sort, string functions (strcmp, strcat, strcpy, strlen), 2D arrays, string arrays, translator.
+- **Exercises** (8 programs): Duplicate detection, float sort, string reverse, 3D arrays, number-to-word lookup.
+- **Cumulative** (4 programs): String padding, palindrome-like interleave, character counting, word guess game.
+- **Mastery** (3 programs): Mode finder, quit loop, dictionary lookup.
+
+---
+
+### Chapter 6: Pointers
+
+**Folder:** `chapter-06/`
+
+- **Examples** (11 programs): Pointer basics, pointer arithmetic, dereference, string pointers, double pointers, functions with pointer parameters.
+- **Exercises** (7 programs): Pointer to loop var, string tokenizing, pointer arrays, pointer-to-pointer.
+- **Mastery** (2 programs): int and float pointer assignment.
+- **ReviewExercises** (3 programs): Odd/even sum, password check, phonebook.
+
+---
+
+### Chapter 7: Functions
+
+**Folder:** `chapter-07/`
+
+- **Examples** (13 programs): Function prototypes, return types, recursion, mutual recursion, pointer parameters, command-line arguments.
+- **Exercises** (9 programs): Average function, factorial, recursive print, command-line strcmp/calc, feet-to-meter.
+- **Cumulative** (3 programs): Password-protect via argv, string uppercase, array average.
+- **Mastery** (2 programs): Recursive alpha print, argv string shift.
+
+---
+
+### Chapter 9: File I/O
+
+**Folder:** `chapter-09/`
+
+- **Examples** (15 programs): fopen/fclose, putc/getc, fprintf/fscanf, fread/fwrite, random access with fseek.
+- **Exercises** (12 programs): File copy, word count, binary dump, file comparison.
+- **Cumulative** (2 programs): Mailing list save/load.
+- **Mastery** (5 programs): Advanced file handling challenges.
+
+---
+
+### Chapter 10: Structures, Unions, Enumerations, and typedef
+
+**Folder:** `chapter-10/`
+
+- **Examples** (12 programs): struct declaration, member access, arrays of structs, nested structs, pointers to structs, unions, enum, typedef.
+- **Exercises** (5 programs): Practical struct use — catalog, bank account, etc.
+- **Cumulative** (3 programs): Combined file + struct operations.
+- **Mastery** (3 programs): Advanced struct/union/typedef challenges.
+
+---
+
+### Class Work
+
+**Folder:** `class-work/`
+
+36 standalone programs from in-class practice sessions:
+- GPA / CGPA calculation and sorting
+- Population growth simulations
+- Pyramids (normal + inverse)
+- Prime checks, series, vowel counting
+- String manipulation (length, copy, compare) with and without library functions
+- Array sorting, min/max, bracket matching
+- Menu-driven calculators, password checks
+
+---
+
+### Home Assignment
+
+**Folder:** `home-assignment/`
+
+- 5 assignment programs (`assignment1.c` through `assignment5.c`)
+- 2 data files (`file1.txt`, `file2.txt`) used by `assignment5.c`
 
 ---
 
@@ -114,6 +154,12 @@ gcc -o output 1-1-1.c
 1. Chapter 1 → Examples → Exercises
 2. Chapter 2 → Examples → Exercises
 3. Chapter 3 → Examples → Exercises
+4. Chapter 4 → Examples → Exercises
+5. Chapter 5 → Examples → Exercises → Cumulative → Mastery
+6. Chapter 6 → Examples → Exercises → Mastery → ReviewExercises
+7. Chapter 7 → Examples → Exercises → Cumulative → Mastery
+8. Chapter 9 → Examples → Exercises → Cumulative → Mastery
+9. Chapter 10 → Examples → Exercises → Cumulative → Mastery
 
 This progressive approach builds a solid foundation before introducing more complex concepts.
 
@@ -137,6 +183,50 @@ This progressive approach builds a solid foundation before introducing more comp
 - Character handling
 - Integration of learned concepts
 
+### Chapter 4 Concepts
+- Unsigned, long, short integer types
+- Local vs global variables
+- Function parameters and return values
+- Type promotion and demotion
+- Explicit casting
+
+### Chapter 5 Concepts
+- One-dimensional and multi-dimensional arrays
+- Bubble sort
+- String library functions (strlen, strcmp, strcat, strcpy)
+- Arrays of strings
+- Dictionary / lookup tables
+
+### Chapter 6 Concepts
+- Pointer declaration and dereferencing
+- Pointer arithmetic
+- Pointers to pointers
+- Pointer-based string manipulation
+- Passing pointers to functions
+
+### Chapter 7 Concepts
+- Function prototypes
+- Return types and parameter passing
+- Recursion and mutual recursion
+- Command-line arguments (argc, argv)
+- Pass by reference via pointers
+
+### Chapter 9 Concepts
+- File pointers (FILE *)
+- fopen, fclose, fread, fwrite
+- fprintf, fscanf, fputc, fgetc
+- Random file access (fseek, ftell)
+- Binary vs text mode
+
+### Chapter 10 Concepts
+- struct declaration and member access
+- Arrays of structures
+- Nested structures
+- Pointers to structures and the `->` operator
+- Unions
+- Enumerations
+- typedef
+
 ## Tips for Success
 
 - **Read the code carefully** before running it
@@ -152,4 +242,5 @@ See [LICENSE](cse-111/LICENSE) for licensing information.
 ---
 
 **Course:** CSE-111 - C Programming Fundamentals
-**Total Programs:** 70+ examples and exercises
+**Source Reference:** Based on *Teach Yourself C* by Herbert Schildt
+**Total Programs:** 225+ across 9 chapters plus class work and home assignments
