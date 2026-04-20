@@ -50,8 +50,6 @@ This repository contains course materials for CSE-111, organized into chapters w
 
 - **Examples** (12 programs): Arrays, bubble sort, string functions (strcmp, strcat, strcpy, strlen), 2D arrays, string arrays, translator.
 - **Exercises** (8 programs): Duplicate detection, float sort, string reverse, 3D arrays, number-to-word lookup.
-- **Cumulative** (4 programs): String padding, palindrome-like interleave, character counting, word guess game.
-- **Mastery** (3 programs): Mode finder, quit loop, dictionary lookup.
 
 ---
 
@@ -61,8 +59,6 @@ This repository contains course materials for CSE-111, organized into chapters w
 
 - **Examples** (11 programs): Pointer basics, pointer arithmetic, dereference, string pointers, double pointers, functions with pointer parameters.
 - **Exercises** (7 programs): Pointer to loop var, string tokenizing, pointer arrays, pointer-to-pointer.
-- **Mastery** (2 programs): int and float pointer assignment.
-- **ReviewExercises** (3 programs): Odd/even sum, password check, phonebook.
 
 ---
 
@@ -72,8 +68,6 @@ This repository contains course materials for CSE-111, organized into chapters w
 
 - **Examples** (13 programs): Function prototypes, return types, recursion, mutual recursion, pointer parameters, command-line arguments.
 - **Exercises** (9 programs): Average function, factorial, recursive print, command-line strcmp/calc, feet-to-meter.
-- **Cumulative** (3 programs): Password-protect via argv, string uppercase, array average.
-- **Mastery** (2 programs): Recursive alpha print, argv string shift.
 
 ---
 
@@ -83,8 +77,6 @@ This repository contains course materials for CSE-111, organized into chapters w
 
 - **Examples** (15 programs): fopen/fclose, putc/getc, fprintf/fscanf, fread/fwrite, random access with fseek.
 - **Exercises** (12 programs): File copy, word count, binary dump, file comparison.
-- **Cumulative** (2 programs): Mailing list save/load.
-- **Mastery** (5 programs): Advanced file handling challenges.
 
 ---
 
@@ -94,32 +86,7 @@ This repository contains course materials for CSE-111, organized into chapters w
 
 - **Examples** (12 programs): struct declaration, member access, arrays of structs, nested structs, pointers to structs, unions, enum, typedef.
 - **Exercises** (5 programs): Practical struct use — catalog, bank account, etc.
-- **Cumulative** (3 programs): Combined file + struct operations.
-- **Mastery** (3 programs): Advanced struct/union/typedef challenges.
-
 ---
-
-### Class Work
-
-**Folder:** `class-work/`
-
-36 standalone programs from in-class practice sessions:
-- GPA / CGPA calculation and sorting
-- Population growth simulations
-- Pyramids (normal + inverse)
-- Prime checks, series, vowel counting
-- String manipulation (length, copy, compare) with and without library functions
-- Array sorting, min/max, bracket matching
-- Menu-driven calculators, password checks
-
----
-
-### Home Assignment
-
-**Folder:** `home-assignment/`
-
-- 5 assignment programs (`assignment1.c` through `assignment5.c`)
-- 2 data files (`file1.txt`, `file2.txt`) used by `assignment5.c`
 
 ---
 
@@ -155,11 +122,11 @@ gcc -o output 1-1-1.c
 2. Chapter 2 → Examples → Exercises
 3. Chapter 3 → Examples → Exercises
 4. Chapter 4 → Examples → Exercises
-5. Chapter 5 → Examples → Exercises → Cumulative → Mastery
-6. Chapter 6 → Examples → Exercises → Mastery → ReviewExercises
-7. Chapter 7 → Examples → Exercises → Cumulative → Mastery
-8. Chapter 9 → Examples → Exercises → Cumulative → Mastery
-9. Chapter 10 → Examples → Exercises → Cumulative → Mastery
+5. Chapter 5 → Examples → Exercises
+6. Chapter 6 → Examples → Exercises 
+7. Chapter 7 → Examples → Exercises
+8. Chapter 9 → Examples → Exercises 
+9. Chapter 10 → Examples → Exercises
 
 This progressive approach builds a solid foundation before introducing more complex concepts.
 
@@ -243,4 +210,4 @@ See [LICENSE](cse-111/LICENSE) for licensing information.
 
 **Course:** CSE-111 - C Programming Fundamentals
 **Source Reference:** Based on *Teach Yourself C* by Herbert Schildt
-**Total Programs:** 225+ across 9 chapters plus class work and home assignments
+**Total Programs:** 225+ across 9 chapters
